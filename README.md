@@ -278,9 +278,9 @@ jupyter notebook
 
 ## 👨‍💻 Author
 
-**[VEDANT M. KHARSEKAR]**  
+**VEDANT M. KHARSEKAR**  
 Machine Learning Intern @ Future Interns  
-[LinkedIn Profile](https://www.linkedin.com/in/vedant-kharsekar/) | [GitHub](https://github.com/vedantkharsekar15)
+[LinkedIn: Vedant Kharsekar](https://www.linkedin.com/in/vedant-kharsekar/) | [GitHub: vedantkharsekar15](https://github.com/vedantkharsekar15)
 
 ---
 
