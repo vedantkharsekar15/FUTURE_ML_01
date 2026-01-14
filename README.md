@@ -229,7 +229,7 @@ jupyter notebook
 1. **Prepare Your Data**
    - If using your own data: Replace the data generation section with:
      ```python
-     df = pd.read_csv('your_superstore_data.csv')
+     df = pd.read_csv('superstore_sales.csv')
      ```
    - Ensure your CSV has columns: `Order Date`, `Sales`, `Category`, `Segment`, `Region`
 
