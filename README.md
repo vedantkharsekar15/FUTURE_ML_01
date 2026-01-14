@@ -24,7 +24,7 @@
 
 ## 🎯 Project Overview
 
-This project implements an AI-powered sales forecasting system using Facebook's Prophet algorithm to predict future sales trends for a retail business. The dashboard analyzes historical sales data spanning 3 years (2015-2018) and generates accurate forecasts for the next 90 days, helping businesses make data-driven inventory, staffing, and marketing decisions.
+This project implements an AI-powered sales forecasting system using Facebook's Prophet algorithm to predict future sales trends for a retail business. The dashboard analyzes historical sales data spanning 3 years (2018-2020) and generates accurate forecasts for the next 90 days, helping businesses make data-driven inventory, staffing, and marketing decisions.
 
 The forecasting model achieved **82.83% accuracy** with a Mean Absolute Percentage Error (MAPE) of just **17.17%**, demonstrating strong predictive capability for real-world business applications.
 
@@ -52,7 +52,7 @@ This project addresses these challenges by building a machine learning model tha
 ## 🔬 Methodology
 
 ### 1. Data Collection & Preprocessing
-- **Dataset:** Superstore retail sales data (2015-2018)
+- **Dataset:** Superstore retail sales data (2018-2020)
 - **Data Points:** 1,095 daily sales records
 - **Cleaning:** Removed duplicates, handled missing values, converted date formats
 - **Feature Engineering:** Extracted year, month, quarter, day of week, and month names
@@ -76,8 +76,8 @@ This project addresses these challenges by building a machine learning model tha
   - `interval_width=0.95` (95% confidence intervals)
 
 ### 4. Train-Test Split
-- **Training Data:** First 1,005 days (2015-2018)
-- **Testing Data:** Last 90 days (2018)
+- **Training Data:** 2018-2020 (first ~1,005 days)
+- **Testing Data:** Last 90 days (late 2020)
 - **Validation Strategy:** Time-based split to prevent data leakage
 
 ### 5. Model Evaluation
@@ -125,9 +125,9 @@ The 90-day forecast shows expected revenue of **$1,307,657** with 95% confidence
 | **Mean Absolute Error (MAE)** | $2,790.61 | Average prediction error of $2,791 per day |
 | **Root Mean Squared Error (RMSE)** | $3,438.68 | Model handles variance well |
 | **Mean Absolute Percentage Error (MAPE)** | 17.17% | 82.83% accuracy rate |
-| **Training Period** | 1,005 days | 2015-2018 |
-| **Testing Period** | 90 days | 2018 |
-| **Forecast Horizon** | 90 days | 90 days beyond dataset |
+| **Training Period** | 1,005 days | 2018-2020 |
+| **Testing Period** | 90 days | Late 2020 |
+| **Forecast Horizon** | 90 days | Early 2021 |
 
 ### Performance Interpretation:
 - **MAPE of 17.17%** is considered **good** for retail forecasting (15-20%)
